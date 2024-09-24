@@ -1,0 +1,49 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$info: $gray-500;
+
+.blob-r {
+	border-radius: 0 0 0 200px;
+	background-color: $primary;
+	margin-left: 10%;
+	width: 90%;
+	position: 30px;
+	height: 40%;
+	// margin-top: 85px;
+}
+
+.blob-l {
+	border-radius: 0 0 60px 0;
+	background-color: $primary;
+	margin-left: 10%;
+	// width: 90%;
+	position: 30px;
+	height: 40%;
+	margin-top: 85px;
+}
+
+.card-img-top {
+	width: 50%;
+}
+
+.dotted-line {
+    border-top: 7px dotted #d3d3d3;
+    width: 100%;
+    margin: 0 auto; /* Center */
+}
+.stepped-card-1 {
+	margin-top: 0;
+}
+.stepped-card-2 {
+	margin-top: 25px;
+}
+.stepped-card-3 {
+	margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) { /* Mobile equal margin */
+	.stepped-card-1, .stepped-card-2, .stepped-card-3 {
+		margin-top: 25px;
+	}
+}
