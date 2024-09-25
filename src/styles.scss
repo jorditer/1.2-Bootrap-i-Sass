@@ -3,25 +3,27 @@ $secondary: #FA5959;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 $info: $gray-500;
 
-.blob-r {
-	border-radius: 0 0 0 200px;
-	background-color: $primary;
-	margin-left: 10%;
-	width: 90%;
-	position: 30px;
-	height: 40%;
-	// margin-top: 85px;
-}
+// I tried making the blobs but it was really ugly
+// uncomment chunk for hideous consequences
+// .blob-r {
+// 	border-radius: 0 0 0 200px;
+// 	background-color: $primary;
+// 	margin-left: 10%;
+// 	width: 90%;
+// 	position: 30px;
+// 	height: 40%;
+// 	// margin-top: 85px;
+// }
 
-.blob-l {
-	border-radius: 0 0 60px 0;
-	background-color: $primary;
-	margin-left: 10%;
-	// width: 90%;
-	position: 30px;
-	height: 40%;
-	margin-top: 85px;
-}
+// .blob-l {
+// 	border-radius: 0 0 60px 0;
+// 	background-color: $primary;
+// 	margin-left: 10%;
+// 	// width: 90%;
+// 	position: 30px;
+// 	height: 40%;
+// 	margin-top: 85px;
+// }
 
 .card-img-top {
 	width: 50%;
@@ -40,6 +42,9 @@ $info: $gray-500;
 }
 .stepped-card-3 {
 	margin-top: 45px;
+}
+.custom-height {
+	transform: scaleY(0.91);
 }
 
 @media screen and (max-width: 768px) { /* Mobile equal margin */

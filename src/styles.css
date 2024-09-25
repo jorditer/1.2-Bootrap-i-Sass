@@ -11965,24 +11965,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.blob-r {
-  border-radius: 0 0 0 200px;
-  background-color: #5265E1;
-  margin-left: 10%;
-  width: 90%;
-  position: 30px;
-  height: 40%;
-}
-
-.blob-l {
-  border-radius: 0 0 60px 0;
-  background-color: #5265E1;
-  margin-left: 10%;
-  position: 30px;
-  height: 40%;
-  margin-top: 85px;
-}
-
 .card-img-top {
   width: 50%;
 }
@@ -12003,6 +11985,10 @@ textarea.form-control-lg {
 
 .stepped-card-3 {
   margin-top: 45px;
+}
+
+.custom-height {
+  transform: scaleY(0.91);
 }
 
 @media screen and (max-width: 768px) { /* Mobile equal margin */
