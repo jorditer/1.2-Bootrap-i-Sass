@@ -14,7 +14,6 @@ $info: $gray-500;
 // 	height: 40%;
 // 	// margin-top: 85px;
 // }
-
 // .blob-l {
 // 	border-radius: 0 0 60px 0;
 // 	background-color: $primary;
@@ -45,6 +44,10 @@ $info: $gray-500;
 }
 .custom-height {
 	transform: scaleY(0.91);
+}
+
+.custom-button:not(.collapsed)::after {
+	border-color: red;
 }
 
 @media screen and (max-width: 768px) { /* Mobile equal margin */

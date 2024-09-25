@@ -11991,6 +11991,10 @@ textarea.form-control-lg {
   transform: scaleY(0.91);
 }
 
+.custom-button:not(.collapsed)::after {
+  border-color: red;
+}
+
 @media screen and (max-width: 768px) { /* Mobile equal margin */
   .stepped-card-1, .stepped-card-2, .stepped-card-3 {
     margin-top: 25px;
