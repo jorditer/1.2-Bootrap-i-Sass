@@ -1,7 +1,3 @@
-# Bookmark Manager
-
-A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
