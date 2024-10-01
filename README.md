@@ -56,7 +56,6 @@ The layout of the page is structured as follows:
                     </div>
                 </div>
             </div>
-            <!-- Additional FAQ items -->
         </div>
     </div>
 </div>
@@ -87,5 +86,5 @@ To set up the project locally, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 ```
